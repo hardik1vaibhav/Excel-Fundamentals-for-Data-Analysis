@@ -11,4 +11,4 @@ The problem with both the Concatenate operator & CONCATENATE function is that it
 3) **CONCAT** function is used to join adjacent cells
    Example : =CONCAT(H2:J2)
 4) **TEXTJOIN** function combines cells with advanced options.
-     Structure of TextJoin : =TEXTJOIN("/"[delimiter],TRUE[Whether to ignore empty cells or not],H2:J2[Range of Cells])                                                                     
+  Structure of TextJoin : =TEXTJOIN("/"[delimiter],TRUE[Whether to ignore empty cells or not],H2:J2[Range of Cells])                                                                     
