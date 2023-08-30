@@ -33,13 +33,23 @@ Example: =CLEAN(G2) will basically remove the non- printing characters (first 32
          * Extra mid spaces i.e. More than 1 space 
            between the text
 12) **UPPER** function converts text to upper case
-13) **LOWER** function converts text to lower case
-14) **PROPER** function capitalises the first letter of 
+13) **LOWER** function converts text to lowercase
+14) **PROPER** function capitalizes the first letter of 
     each word
 15) **SUBSTITUTE** function replaces text based on 
     content
     Example: =SUBSTITUTE(F2[Text],"S"[The letter/string within the text you want to replace],""[The replacement for the letter/string])
-    *Note*- In case you want to remove some old letter with nothing, just write "" in third argument.
+    *Note*- In case you want to remove some old letter with nothing, just write "" in the third argument.
 ## Week 3
 *Note*: Named Ranges are very useful for automation.
+16) **Absolute Referencing** is a cell reference that stays fixed even as it is copied/moved (The shortcut key is F4/ Function + F4)
+Naming of Named ranges should have certain properties
+      * Maximum of 255 characters of name
+      * Name should start with letter/ "_"
+      * Use letters,numbers & "_"
+      * No spaces, hyphens, and most punctuations won't 
+        be accepted
+      * Must be unique (within the workbook)
+      * Can't be a cell reference
+
    
