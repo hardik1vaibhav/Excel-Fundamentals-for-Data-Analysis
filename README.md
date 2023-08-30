@@ -40,4 +40,6 @@ Example: =CLEAN(G2) will basically remove the non- printing characters (first 32
     content
     Example: =SUBSTITUTE(F2[Text],"S"[The letter/string within the text you want to replace],""[The replacement for the letter/string])
     *Note*- In case you want to remove some old letter with nothing, just write "" in third argument.
+##Week 3
+*Note*: Named Ranges are very useful for automation.
    
