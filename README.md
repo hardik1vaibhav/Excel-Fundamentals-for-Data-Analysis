@@ -20,6 +20,24 @@
 7) **MID** function returns a specific number of characters from a text string starting at a specified position
    Example: =MID(G2[Text],4[Start text position],1[No. of characters we want to take from the start text postion]) 
 8) **FIND** function finds one text value within another text value
-   Example: =FIND([Find Text], [Within Text], []
-
+   Example: =FIND("-"[Find Text], G2[Within Text],[This argument is optional basically if we want to locate the secpnd hypen, we will give this argument])
+9) **LEN** function returns the number of characters in a text string
+10) **CLEAN** function strips/removes first 32 non-printing characters in the ASCII Table (these are non-printing characters) from the text
+Example: =CLEAN(G2) will basically remove the non- printing characters (first 32 ASCII Non-printable characters if present in G2
+11) **TRIM** function removes extra spaces from text
+    TRIM removes:
+         * Leading spaces i.e. space coming before the 
+           text
+         * Trailing Spaces i.e. space coming at end of 
+           text
+         * Extra mid spaces i.e. More than 1 space 
+           between the text
+12) **UPPER** function converts text to upper case
+13) **LOWER** function converts text to lower case
+14) **PROPER** function capitalises the first letter of 
+    each word
+15) **SUBSTITUTE** function replaces text based on 
+    content
+    Example: =SUBSTITUTE(F2[Text],"S"[The letter/string within the text you want to replace],""[The replacement for the letter/string])
+    *Note*- In case you want to remove some old letter with nothing, just write "" in third argument.
    
