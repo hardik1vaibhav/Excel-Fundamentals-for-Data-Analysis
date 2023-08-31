@@ -63,6 +63,12 @@ The shortcut to extend selection down to the last cell is the Ctrl+Shift+Down ar
 21) **COUNTIFS** function counts cells that match multiple criteria (up to 127 criteria) (There is another function called **COUNTIF** which allows for a single criterion)
 22) **SUMIFS** function sums cells that match multiple 
     criteria.
+23) **Automation workbooks & data validation with Named 
+      Ranges**
+      Data Validation: A feature designed to control what a user can enter into a cell
+24) **COUNTA** function counts the number of non-empty 
+     cells. COUNT Function only counts cells containing numbers
+25) **OFFSET** function returns a cell/a range that is a specified number of rows and columns from a cell/range
       
 
    
