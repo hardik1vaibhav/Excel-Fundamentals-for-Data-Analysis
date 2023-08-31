@@ -75,4 +75,5 @@ The shortcut to extend selection down to the last cell is the Ctrl+Shift+Down ar
 26) **Creating a Table**: Go to any cell within the collection of rows and columns which you want to form a table from. Go to Insert Tab and then go to Create Table. After completing the process of making a table, a brand new tab named *Table Design* will appear.
 **TIP**: When removing Tables, cell formatting will remain, as it is not automatically removed from the table. To remove the table, just go to Convert to Range.
 Shortcut for Creating table is Ctrl+T
+ttt
    
