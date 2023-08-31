@@ -51,5 +51,18 @@ Naming of Named ranges should have certain properties
         be accepted
       * Must be unique (within the workbook)
       * Can't be a cell reference
+The shortcut to extend selection down to the last cell is the Ctrl+Shift+Down arrow key
+17) **Define Name** is a tool to create named ranges with added specificity. Go to Formulas and then go to Define Name. A new window will pop up in which we can allow/restrict the particular named ranges to be within the workbook/particular worksheet
+18) **Create From Selection** basically automatically creates named ranges from the selected cells. It allows us to create multiple Named Ranges simultaneously using the labels already in the workbook. Go to the Formulas tab, go to Create from selection and there select the options from which you want to name the cells.
+19) **Managing Named Ranges** (Editing the existing 
+    Named Ranges) Go to the Formulas Tab and there go to 
+    Name Manager tool
+*TIP*: A deleted named range won't be replaced with the original cell reference. Instead, it will return an error.
+20) **Use Formulas** is used to show all the formulas within the particular worksheet. Just go to the cell you want to list down the various named ranges and then utilize *Use in Formula* of MS Excel. The list that we get is just a snapshot, i.e. it cannot be automatically updated if we change/modify our named ranges.
+*Note*: Name Manager does not allow us to change the scope of a named range. It is possible for the same range to have multiple names.
+21) **COUNTIFS** function counts cells that match multiple criteria (up to 127 criteria) (There is another function called **COUNTIF** which allows for a single criterion)
+22) **SUMIFS** function sums cells that match multiple 
+    criteria.
+      
 
    
