@@ -71,6 +71,6 @@ The shortcut to extend selection down to the last cell is the Ctrl+Shift+Down ar
 24) **COUNTA** function counts the number of non-empty 
      cells. COUNT Function only counts cells containing numbers
 25) **OFFSET** function returns a cell/a range that is a specified number of rows and columns from a cell/range
-      
+      yy
 
    
