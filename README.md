@@ -1,6 +1,6 @@
 # Excel-Fundamentals-for-Data-Analysis
 
-![alt text](https://www.bing.com/images/search?view=detailV2&ccid=0FWMOvv1&id=4B0923E9DF9A29A94B7DE091A999EE9AFBF9B28B&thid=OIP.0FWMOvv1dp6biE0RWLL4EgHaFu&mediaurl=https%3a%2f%2fi0.wp.com%2fknowasap.com%2fwp-content%2fuploads%2f2020%2f03%2fEXCEL-d.png%3ffit%3d2000%252C1545%26ssl%3d1&exph=1545&expw=2000&q=Excel&simid=608049447071663220&FORM=IRPRST&ck=0B9CA30C432A8F7AFFC6529500FE0227&selectedIndex=8&ajaxhist=0&ajaxserp=0)
+![alt text](https://i0.wp.com/knowasap.com/wp-content/uploads/2020/03/EXCEL-d.png?fit=2000%2C1545&ssl=1)
 ## Week 1
 
 1) **CONCATENATE** function joins text elements together. Upto 255 arguments can be used in a CONCATENATE function.
