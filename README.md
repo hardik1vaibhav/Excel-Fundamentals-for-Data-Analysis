@@ -74,5 +74,8 @@ The shortcut for Creating a table is Ctrl+T./
 27) **Sorting and Filtering Table** Go to the Data tab and there go to Sort & you will be able to add levels in your process of sorting columns./
 28) **Slicer**: A user-friendly visual element used to apply filters to tables. For this, go to the Table Design tab and then go to the Tools section, you will get the Insert Slicer option.
 29) **Structured Reference** means Using a table name in a formula rather than a normal cell reference.
-    Operation of sum on such reference looks like this =SUM({Name of Table}[$ {Name of the column}]
+    Operation of sum on such reference looks like this =SUM({Name of Table}[$ {Name of the column}]. If I change the name of the table, the structured reference will be updated. If I 
+    Remove the table altogether then the Structured reference will revert back to normal references
+30) **Row** function returns the number of rows in a reference/array
+
    
