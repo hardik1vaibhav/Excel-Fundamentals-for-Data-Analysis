@@ -31,7 +31,7 @@ Example: =CLEAN(G2) will basically remove the non- printing characters (first 32
     TRIM removes:
          * Leading spaces i.e. space coming before the 
            text
-         * Trailing Spaces i.e. space coming at end of 
+         * Trailing Spaces i.e. space coming at the end of 
            text
          * Extra mid spaces i.e. More than 1 space 
            between the text
@@ -43,6 +43,25 @@ Example: =CLEAN(G2) will basically remove the non- printing characters (first 32
     content
     Example: =SUBSTITUTE(F2[Text],"S"[The letter/string within the text you want to replace],""[The replacement for the letter/string])
     *Note*- In case you want to remove some old letter with nothing, just write "" in the third argument.
+## Week 2
+*TIP*: Numbers in Excel automatically align to the right.
+17) **VALUE** Function converts text that appears in a recognized format into a numeral.
+    Example: =VALUE(A2)
+*TIP*: Applying a VALUE function to a cell containing non-numeric data will result in an error.
+18) **TEXT** function converts date/numeric data as plain text
+    Example: format_text (Days)
+             "D"= Day without leading digit  "2", "3"
+             "DD"= Day with leading digits   "02", "16"
+             "DDD"= Day of the week to 3 characters "Mon"
+             "DDDD" = Day of week "Monday"
+   Dates are numbers with special formatting. Like numbers, they can be used in calculations.
+   In Excel, if you type 1 and set the cell's format to be Date then you will get the date of 1st January 1900
+   Volatility- Volatile functions recalculate each time there is a change to the workbook
+19) **NOW** function returns the serial number of the current date & time
+20) **TODAY** function returns the serial number of today's date 
+21) **DAY** function converts a serial number to a day of the month
+22) **MONTH** function converts a serial number to a month
+23) **YEAR** function converts a serial number to a year
 ## Week 3
 *Note*: Named Ranges are very useful for automation. /
 16) **Absolute Referencing** is a cell reference that stays fixed even as it is copied/moved (The shortcut key is F4/ Function + F4)/
