@@ -62,6 +62,9 @@ Example: =CLEAN(G2) will basically remove the non- printing characters (first 32
 21) **DAY** function converts a serial number to a day of the month
 22) **MONTH** function converts a serial number to a month
 23) **YEAR** function converts a serial number to a year
+24) **DATE** function returns the serial number of a particular date
+   Usage: =DATE(2020[Year],4[Month],17[Day])
+   
 ## Week 3
 *Note*: Named Ranges are very useful for automation. /
 16) **Absolute Referencing** is a cell reference that stays fixed even as it is copied/moved (The shortcut key is F4/ Function + F4)/
