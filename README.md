@@ -57,43 +57,43 @@ Example: =CLEAN(G2) will basically remove the non- printing characters (first 32
              "DD"= Day with leading digits   "02", "16" <br>
              "DDD"= Day of the week to 3 characters "Mon" <br>
              "DDDD" = Day of week "Monday"  <br>
-   Dates are numbers with special formatting. Like numbers, they can be used in calculations.
-   In Excel, if you type 1 and set the cell's format to be Date then you will get the date of 1st January 1900
-   Volatility- Volatile functions recalculate each time there is a change to the workbook
-19) **NOW** function returns the serial number of the current date & time
-20) **TODAY** function returns the serial number of today's date 
-21) **DAY** function converts a serial number to a day of the month
-22) **MONTH** function converts a serial number to a month
-23) **YEAR** function converts a serial number to a year
-24) **DATE** function returns the serial number of a particular date
-   Usage: =DATE(2020[Year],4[Month],17[Day])
+   Dates are numbers with special formatting. Like numbers, they can be used in calculations. <br>
+   In Excel, if you type 1 and set the cell's format to be Date then you will get the date of 1st January 1900  <br>
+   Volatility- Volatile functions recalculate each time there is a change to the workbook   <br>
+19) **NOW** function returns the serial number of the current date & time <br>
+20) **TODAY** function returns the serial number of today's date <br>
+21) **DAY** function converts a serial number to a day of the month  <br>
+22) **MONTH** function converts a serial number to a month <br>
+23) **YEAR** function converts a serial number to a year <br>
+24) **DATE** function returns the serial number of a particular date <br>
+   Usage: =DATE(2020[Year],4[Month],17[Day]) <br>
    
 ## Week 3
-*Note*: Named Ranges are very useful for automation. /
+*Note*: Named Ranges are very useful for automation. / <br>
 16) **Absolute Referencing** is a cell reference that stays fixed even as it is copied/moved (The shortcut key is F4/ Function + F4)/
-Naming of Named ranges should have certain properties/
-      * Maximum of 255 characters of name/
-      * Name should start with letter/ "_"/
-      * Use letters,numbers & "_"/
-      * No spaces, hyphens, and most punctuations won't /
-        be accepted/
-      * Must be unique (within the workbook)/
-      * Can't be a cell reference/
-The shortcut to extend selection down to the last cell is the Ctrl+Shift+Down arrow key/
-17) **Define Name** is a tool to create named ranges with added specificity. Go to Formulas and then go to Define Name. A new window will pop up in which we can allow/restrict the/ particular named ranges to be within the workbook/particular worksheet/
-18) **Create From Selection** basically automatically creates named ranges from the selected cells. It allows us to create multiple Named Ranges simultaneously using the labels/ already in the workbook. Go to the Formulas tab, go to Create from selection and there select the options from which you want to name the cells./
-19) **Managing Named Ranges** (Editing the existing Named Ranges) Go to the Formulas Tab and there go to Name Manager tool /
-*TIP*: A deleted named range won't be replaced with the original cell reference. Instead, it will return an error./
-20) **Use Formulas** is used to show all the formulas within the particular worksheet. Just go to the cell you want to list down the various named ranges and then utilize *Use in/ Formula* of MS Excel. The list that we get is just a snapshot, i.e. it cannot be automatically updated if we change/modify our named ranges./
-*Note*: Name Manager does not allow us to change the scope of a named range. It is possible for the same range to have multiple names./
-21) **COUNTIFS** function counts cells that match multiple criteria (up to 127 criteria) (There is another function called **COUNTIF** which allows for a single criterion)/
-22) **SUMIFS** function sums cells that match multiple criteria./
-23) **Automation workbooks & data validation with Named Ranges**/
-    Data Validation: A feature designed to control what a user can enter into a cell/
-24) **COUNTA** function counts the number of non-empty cells. COUNT Function only counts cells containing numbers/
-25) **OFFSET** function returns a cell/a range that is a specified number of rows and columns from a cell/range/
+Naming of Named ranges should have certain properties/ <br>
+      * Maximum of 255 characters of name/ <br>
+      * Name should start with letter/ "_"/ <br>
+      * Use letters,numbers & "_"/ <br>
+      * No spaces, hyphens, and most punctuations won't / 
+        be accepted/ <br>
+      * Must be unique (within the workbook)/ <br>
+      * Can't be a cell reference/ <br>
+The shortcut to extend selection down to the last cell is the Ctrl+Shift+Down arrow key/ <br>
+17) **Define Name** is a tool to create named ranges with added specificity. Go to Formulas and then go to Define Name. A new window will pop up in which we can allow/restrict the/ particular named ranges to be within the workbook/particular worksheet/ <br>
+18) **Create From Selection** basically automatically creates named ranges from the selected cells. It allows us to create multiple Named Ranges simultaneously using the labels/ already in the workbook. Go to the Formulas tab, go to Create from selection and there select the options from which you want to name the cells./ <br>
+19) **Managing Named Ranges** (Editing the existing Named Ranges) Go to the Formulas Tab and there go to Name Manager tool / <br>
+*TIP*: A deleted named range won't be replaced with the original cell reference. Instead, it will return an error./ <br>
+20) **Use Formulas** is used to show all the formulas within the particular worksheet. Just go to the cell you want to list down the various named ranges and then utilize *Use in/ Formula* of MS Excel. The list that we get is just a snapshot, i.e. it cannot be automatically updated if we change/modify our named ranges./ 
+*Note*: Name Manager does not allow us to change the scope of a named range. It is possible for the same range to have multiple names./ <br>
+21) **COUNTIFS** function counts cells that match multiple criteria (up to 127 criteria) (There is another function called **COUNTIF** which allows for a single criterion)/ <br>
+22) **SUMIFS** function sums cells that match multiple criteria./ <br>
+23) **Automation workbooks & data validation with Named Ranges**/ <br>
+    Data Validation: A feature designed to control what a user can enter into a cell/ <br>
+24) **COUNTA** function counts the number of non-empty cells. COUNT Function only counts cells containing numbers/ <br>
+25) **OFFSET** function returns a cell/a range that is a specified number of rows and columns from a cell/range/ <br>
 ## Week 4
-26) **Creating a Table**: Go to any cell within the collection of rows and columns which you want to form a table from. Go to Insert Tab and then go to Create Table. After completing/ the process of making a table, a brand new tab named *Table Design* will appear./
+26) **Creating a Table**: Go to any cell within the collection of rows and columns which you want to form a table from. Go to Insert Tab and then go to Create Table. After completing/ the process of making a table, a brand new tab named *Table Design* will appear./ <br>
 **TIP**: When removing Tables, cell formatting will remain, as it is not automatically removed from the table. To remove the table, just go to Convert to Range./
 The shortcut for Creating a table is Ctrl+T./
 27) **Sorting and Filtering Table** Go to the Data tab and there go to Sort & you will be able to add levels in your process of sorting columns./
