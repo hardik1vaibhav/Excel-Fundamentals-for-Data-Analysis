@@ -45,9 +45,12 @@ Example: =CLEAN(G2) will basically remove the non- printing characters (first 32
     *Note*- In case you want to remove some old letter with nothing, just write "" in the third argument.
 ## Week 2
 *TIP*: Numbers in Excel automatically align to the right.
+<br>
 17) **VALUE** Function converts text that appears in a recognized format into a numeral.
     Example: =VALUE(A2)
+<br>
 *TIP*: Applying a VALUE function to a cell containing non-numeric data will result in an error.
+<br>
 18) **TEXT** function converts date/numeric data as plain text
     Example: format_text (Days)
              "D"= Day without leading digit  "2", "3"
