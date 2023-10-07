@@ -51,12 +51,12 @@ Example: =CLEAN(G2) will basically remove the non- printing characters (first 32
 <br>
 *TIP*: Applying a VALUE function to a cell containing non-numeric data will result in an error.
 <br>
-18) **TEXT** function converts date/numeric data as plain text
-    Example: format_text (Days)
-             "D"= Day without leading digit  "2", "3"
-             "DD"= Day with leading digits   "02", "16"
-             "DDD"= Day of the week to 3 characters "Mon"
-             "DDDD" = Day of week "Monday"
+18) **TEXT** function converts date/numeric data as plain text <br>
+    Example: format_text (Days) <br>
+             "D"= Day without leading digit  "2", "3"   <br>
+             "DD"= Day with leading digits   "02", "16" <br>
+             "DDD"= Day of the week to 3 characters "Mon" <br>
+             "DDDD" = Day of week "Monday"  <br>
    Dates are numbers with special formatting. Like numbers, they can be used in calculations.
    In Excel, if you type 1 and set the cell's format to be Date then you will get the date of 1st January 1900
    Volatility- Volatile functions recalculate each time there is a change to the workbook
