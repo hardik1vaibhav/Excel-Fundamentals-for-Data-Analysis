@@ -80,7 +80,8 @@ Naming of Named ranges should have certain properties/ <br>
       * Must be unique (within the workbook)/ <br>
       * Can't be a cell reference/ <br>
 The shortcut to extend selection down to the last cell is the Ctrl+Shift+Down arrow key/ <br>
-17) **Define Name** is a tool to create named ranges with added specificity. Go to Formulas and then go to Define Name. A new window will pop up in which we can allow/restrict the/ particular named ranges to be within the workbook/particular worksheet/ <br>
+17) **Define Name** is a tool to create named ranges with added specificity. Go to Formulas and then go to Define Name. A new window will pop up in which we can allow/restrict the/ particular named ranges to be within the workbook/particular worksheet/ 
+<br>
 18) **Create From Selection** basically automatically creates named ranges from the selected cells. It allows us to create multiple Named Ranges simultaneously using the labels/ already in the workbook. Go to the Formulas tab, go to Create from selection and there select the options from which you want to name the cells./ <br>
 19) **Managing Named Ranges** (Editing the existing Named Ranges) Go to the Formulas Tab and there go to Name Manager tool / <br>
 *TIP*: A deleted named range won't be replaced with the original cell reference. Instead, it will return an error./ <br>
