@@ -9,7 +9,7 @@
    _Note_: If you want to copy the formula to a number of rows, go to the bottom fill handle and double-click, it will copy the formula until the cells referenced have not 
            been empty. It only works vertically. 
 2) **CONCATENATE** operator (Alternative to the above CONCATENATE function, an more easier and versatile) 
-     Example : =H2&I2&J2   (Here, & is ampersand) \
+     Example : =H2&I2&J2   (Here, & is ampersand) 
   The problem with both the Concatenate operator & CONCATENATE function is that it is impossible to select a range of cells in these. 
 3) **CONCAT** function is used to join adjacent cells 
    Example : =CONCAT(H2:J2) 
@@ -67,6 +67,9 @@ Example: =CLEAN(G2) will basically remove the non- printing characters (first 32
 23) **YEAR** function converts a serial number to a year <br>
 24) **DATE** function returns the serial number of a particular date <br>
    Usage: =DATE(2020[Year],4[Month],17[Day]) <br>
+25) **DAYS** function returns the no. of days between 2 dates <br>
+  Usage: =DAYS([end_date],[start_date])
+26) **WORKDAY** function returns the serial number of the date before/after a specified number of workday
    
 ## Week 3
 *Note*: Named Ranges are very useful for automation. / <br>
