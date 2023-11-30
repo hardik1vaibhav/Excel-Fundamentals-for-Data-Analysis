@@ -104,6 +104,46 @@ The shortcut to extend selection down to the last cell is the Ctrl+Shift+Down ar
     Data Validation: A feature designed to control what a user can enter into a cell <br>
 24) **COUNTA** function counts the number of non-empty cells. COUNT Function only counts cells containing numbers <br>
 25) **OFFSET** function returns a cell/a range that is a specified number of rows and columns from a cell/range <br>
+
+## Named Ranges and Excel Tips
+
+### 16) Absolute Referencing
+Named Ranges are essential for automation. Absolute Referencing, a fixed cell reference, is copied/moved with the shortcut key F4 or Function + F4. Naming of Named Ranges should follow specific criteria:
+- Maximum of 255 characters.
+- Must start with a letter.
+- Use letters, numbers, and underscores.
+- Avoid spaces, hyphens, and most punctuations.
+- Must be unique within the workbook.
+- Cannot be a cell reference.
+
+### 17) Define Name
+Define Name is a tool for creating named ranges with added specificity. Navigate to Formulas, then Define Name. A new window allows you to allow/restrict named ranges within the workbook or a particular worksheet.
+
+### 18) Create From Selection
+Automatically create named ranges from selected cells using Create From Selection in the Formulas tab. This feature enables the simultaneous creation of multiple Named Ranges based on existing labels in the workbook.
+
+### 19) Managing Named Ranges
+Edit existing Named Ranges by using the Name Manager tool in the Formulas tab.
+
+**Tip:** Deleting a named range won't replace it with the original cell reference; instead, it will result in an error.
+
+### 20) Use Formulas
+Show all formulas within a worksheet using the Use Formulas feature. Accessible through the Formulas tab, this list is a static snapshot and doesn't automatically update if named ranges are modified. Note that Name Manager does not allow changing the scope of a named range.
+
+### 21) COUNTIFS and COUNTIF
+COUNTIFS function counts cells matching multiple criteria (up to 127 criteria). There's also COUNTIF for a single criterion.
+
+### 22) SUMIFS
+SUMIFS function sums cells that match multiple criteria.
+
+### 23) Automation Workbooks & Data Validation with Named Ranges
+Data Validation is a feature designed to control cell inputs. Named Ranges play a crucial role in automating workbooks and enhancing data validation.
+
+### 24) COUNTA and COUNT Functions
+COUNTA counts the number of non-empty cells, while COUNT only counts cells containing numbers.
+
+### 25) OFFSET Function
+The OFFSET function returns a cell or range that is a specified number of rows and columns from a given cell or range.
 ## Week 4
 26) **Creating a Table**: Go to any cell within the collection of rows and columns which you want to form a table from. Go to Insert Tab and then go to Create Table. After completing the process of making a table, a brand new tab named *Table Design* will appear. <br>
 **TIP**: When removing Tables, cell formatting will remain, as it is not automatically removed from the table. To remove the table, just go to Convert to Range.
