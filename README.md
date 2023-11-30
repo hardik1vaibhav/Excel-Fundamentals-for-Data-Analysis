@@ -69,7 +69,15 @@ Example: =CLEAN(G2) will basically remove the non- printing characters (first 32
    Usage: =DATE(2020[Year],4[Month],17[Day]) <br>
 25) **DAYS** function returns the no. of days between 2 dates <br>
   Usage: =DAYS([end_date],[start_date])
-26) **WORKDAY** function returns the serial number of the date before/after a specified number of workday
+26) **WORKDAY** function returns the serial number of the date before/after a specified number of workdays
+27) **WORKDAY.INTL** function is like WORKDAY. using parameters to indicate which & how many days are weekend days.
+    Note: MS Excel starts on Mondays
+    To customize the [weekend], for example, you live in a country where Tuesdays and Sundays are non-working days. So, in the [weekend] parameter write "0100001".
+    [weekend] parameter requires seven '0's' or '1's'. "1" represents a non-work day."0" represents a work day.
+28) **NETWORKDAYS** function returns the number of whole working days between a start date and an end date
+29) **EOMONTH** function returns the last day of a provided month.
+30) **EDATE** function returns the date that is a number of months before/ after the start date
+    
    
 ## Week 3
 *Note*: Named Ranges are very useful for automation. / <br>
