@@ -26,7 +26,7 @@
    Example: =FIND("-"[Find Text], G2[Within Text],[This argument is optional basically if we want to locate the secpnd hypen, we will give this argument])
 10) **LEN** function returns the number of characters in a text string
 11) **CLEAN** function strips/removes first 32 non-printing characters in the ASCII Table (these are non-printing characters) from the text
-Example: =CLEAN(G2) will basically remove the non- printing characters (first 32 ASCII Non-printable characters if present in G2
+Example: =CLEAN(G2) will basically remove the non- printing characters (first 32 ASCII Non-printable characters if present in G2)
 12) **TRIM** function removes extra spaces from text
     TRIM removes:
          * Leading spaces i.e. space coming before the 
